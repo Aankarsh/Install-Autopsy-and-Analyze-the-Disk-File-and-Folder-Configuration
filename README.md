@@ -1,60 +1,54 @@
 # Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration
+### Name : AANKARSH
+### Reg.No : 212223233001
 ## AIM:
 To install Autopsy on Kali Linux and analyze disk images, files, and folder configurations for digital forensic purposes.
 
 ## DESIGN STEPS:
-### Step 1:
-Install Autopsy using the terminal with the command(Kali Linux) or GUI application (windows)
+## Step 1:
+Install Autopsy using the terminal with the command:
 
-### Step 2:
+## Step 2:
 Launch Autopsy from the terminal or application menu and create a new case.
 
-### Step 3:
+## Step 3:
 Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
 ## PROGRAM:
-### **Install Autopsy for Windows (GUI-based Forensic Tool)**
-🔗 **Download Autopsy**: [Click Here](https://www.autopsy.com/download/)  
-1. Download the **Autopsy Windows Installer** from the official website.  
-2. Extract the ZIP file and open the **bin** folder.  
-3. Run `autopsy.exe` and set up a new forensic case for analysis.
+Autopsy Web Interface Launch Autopsy:
+You can start Autopsy via terminal, which opens the web interface:
 
-### **Install Autopsy for Linux**
-1. Open Terminal.
-2. Update your package list: sudo apt update
-3. Install Autopsy: sudo apt install autopsy
-4. Launch Autopsy using: autopsy
-5. Open http://localhost:9999/autopsy in a web browser.
-
-### **Create & Configure a Virtual Hard Disk (VHD) in Windows**
-
-1. Press **Win + X**, Select Disk Management.
-2. Click Action > Create **VHD**.
-3. Choose a location and set a disk size (e.g., 10GB+).
-4. Select Fixed Size or Dynamically Expanding and click OK.
-5. In Disk Management, find your new disk (marked as "Not Initialized") -> Right-click the new disk → Initialize Disk → Select **MBR**.
-6. Right-click Unallocated Space → **New Simple Volume** → Format the disk -> Click next → Finish.
-
+```
+autopsy
+```
+It will be accessible at http://localhost:9999 by default in your browser.
 
 ## OUTPUT:
-### Autopsy for Windows
-![autopsy](https://github.com/user-attachments/assets/2f5bc402-c133-43e3-8b46-75e30d7a986d)
 
-### Autopsy for kali linux
-![image](https://github.com/user-attachments/assets/d52ce649-c5de-41e8-bf5a-dae9af11b260)
 
-![image](https://github.com/user-attachments/assets/7f6280b0-b50c-497d-84fc-b42a39450ffa)
+![435601505-80906fca-159a-4d6f-91b1-0879acd73074](https://github.com/user-attachments/assets/bbd36fb6-5478-4636-9d5b-118aadd3c797)
 
-### Analysing the disk file and configuration:
-![image](https://github.com/user-attachments/assets/a4377b18-14e7-4daa-98f4-a6eb9e85f6b6)
 
-![Screenshot 2025-04-22 215750](https://github.com/user-attachments/assets/461a6099-f23a-4e51-b1be-34e9c5409f10)
+![435601593-3187b259-2edf-495b-801c-4f1d9c2659bf](https://github.com/user-attachments/assets/ee424b52-ccd7-4864-97de-b4fb87e54e02)
 
-### Timeline:
-![image](https://github.com/user-attachments/assets/a75f3d66-685b-4883-b3b7-ad8140072d96)
 
-## Data Source Summary Report:
-![image](https://github.com/user-attachments/assets/150130e9-703c-483c-b7a3-0135665046c5)
+![435602368-9cb055ba-5b27-4ad2-a64c-816bbbf828c9](https://github.com/user-attachments/assets/2c5d3151-345f-4a45-b9e3-d9de1561cdf2)
+
+
+![435603054-36e75b8a-6253-4a26-b1a0-149e1056092f](https://github.com/user-attachments/assets/a33906f5-8ee7-46cb-9fcb-ba6fda1a5b12)
+
+
+![435603488-6da8db99-04b4-4ebc-8fc8-647ec74b77ce](https://github.com/user-attachments/assets/7d0a663c-017b-475d-b8b5-2258a43fffb4)
+
+
+![435603880-5c772a4e-11c7-4ed2-9fd2-49ed86adec46](https://github.com/user-attachments/assets/f56aa277-e210-4d46-9229-768a118247d7)
+
+
+![435603974-ce44d676-88b4-4735-bfdd-11ce92bacf10](https://github.com/user-attachments/assets/6810315b-f277-4a89-a4b4-01efa526eed0)
+
+
+![435604073-1a8d9c96-ed94-4a7b-820c-91fa9388b2fc](https://github.com/user-attachments/assets/2b48b0f0-e9e6-4da0-a884-c9a429634c2e)
+
 
 
 ## RESULT:
