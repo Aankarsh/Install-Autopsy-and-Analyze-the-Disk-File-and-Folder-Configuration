@@ -91,7 +91,7 @@ Autopsy Installation and Analysis Steps
 
   •	Generate Report
   
-  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/report.png)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/analyse%20report.jpeg)
 
 
 ## RESULT:
