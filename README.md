@@ -30,14 +30,14 @@ Autopsy Installation and Analysis Steps
 
     <br>
   •	Successfully installed & Autopsy Interface<br>
-  ![image](https://github.com/user-attachments/assets/84f04f68-a876-40a1-afee-d64dce4f0e53)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/installed.png)
 
   
 ## CREATING A DISK PARTITION:
 ### Step1: Open File Manager
   ●	Right-click This PC → Click Show More Options.<br>
   ●	Select Manage.<br>
-![image](https://github.com/user-attachments/assets/74032702-8933-4eef-a681-6dac708a2452)
+![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/open%20file%20manager.png)
 <br>
 ### Step2: Access Disk Management<br>
   ●	In the new window, select Disk Management.<br>
