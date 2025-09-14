@@ -26,7 +26,7 @@ Autopsy Installation and Analysis Steps
 
 ### Step2:Installation Process<br>
   •	Launch Autopsy if it correctly works. 
-  ![image](https://github.com/user-attachments/assets/f0fb93a5-ae0e-4adc-943d-b904cd5a817d)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/install-process.png)
 
     <br>
   •	Successfully installed & Autopsy Interface<br>
