@@ -22,7 +22,7 @@ Autopsy Installation and Analysis Steps
   <br>
   •	Double-click the downloaded file and follow the on-screen instructions.
   <br>
-  ![image]([https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/autopsy-download.png)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/autopsy-download.png)
 
 ### Step2:Installation Process<br>
   •	Launch Autopsy if it correctly works. 
