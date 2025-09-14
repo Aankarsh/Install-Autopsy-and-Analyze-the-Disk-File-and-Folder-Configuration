@@ -41,13 +41,13 @@ Autopsy Installation and Analysis Steps
 <br>
 ### Step2: Access Disk Management<br>
   ●	In the new window, select Disk Management.<br>
-  ![image](https://github.com/user-attachments/assets/d0522213-d3fb-4a45-bb79-bb8c4bb4f4c9)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/step%202.png)
 
 ### Step3: Shrink the C Drive to Allocate Space<br>
   •	Locate C: drive → Right-click → Select Shrink Volume.<br>
   •	Enter the amount of memory to allocate for the new disk.<br>
   •	Click Shrink.<br>
-  ![image](https://github.com/user-attachments/assets/1b92460f-3b9b-4abb-b794-bd48b9f90a9f)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/step3.png)
 <br>
 ### Step4: Create a New Volume
   •	Right-click on the newly unallocated space → Select New Simple Volume.<br>
@@ -56,21 +56,21 @@ Autopsy Installation and Analysis Steps
   •	Follow the wizard and assign a disk name<br>
   •	Click Finish to complete the process.<br>
   •	The new Disk Partition is created<br>
-![image](https://github.com/user-attachments/assets/1cf2a252-b34d-4100-8253-b1736cac479d)
+![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/disk%20partition.png)
 
 ## ADDING FILES:
 ### Step1: Copy Files to the Partition:
   •	Open File Explorer → Navigate to the newly created drive (C: or D:).
 
   •	Transfer images or files into it.
-  ![image](https://github.com/user-attachments/assets/a0142b7a-366d-47dc-9d34-6290e0bee579)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/file%20copied.png)
 
 ## OUTPUT:ANALYSING FILES USING AUTOPSY:
 
 ### Step1: Create a Case
   •	Enter a case name and select a location to store the case data.
   
-   ![image](https://github.com/user-attachments/assets/bc808727-106c-4214-8f91-7ae555fb8636)
+   ![image]((https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/create%20case.png))
   •	Provide a case number and investigator details if required.
 
 ### Step2: Add a Data Source
@@ -79,19 +79,19 @@ Autopsy Installation and Analysis Steps
 ### Step3: File Analysis
   •	Application
   
-  ![image](https://github.com/user-attachments/assets/bda92cad-9f47-4a7c-97f6-05910c373fe0)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/file%20analysis.png)
 
   •	File Metadata
   
-  ![image](https://github.com/user-attachments/assets/0450bf95-28a5-44be-b875-016216e62136)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/file%20metadata.png)
 
   •	Click OS Account.
   
-  ![image](https://github.com/user-attachments/assets/63a21fd6-4ea2-408a-ac70-d6a0274e702b)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/os%20account.png)
 
   •	Generate Report
   
-  ![image](https://github.com/user-attachments/assets/5a82b31d-3f4f-49dd-9b23-4872df3ab8a9)
+  ![image](https://github.com/Aankarsh/Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration/blob/main/report.png)
 
 
 ## RESULT:
