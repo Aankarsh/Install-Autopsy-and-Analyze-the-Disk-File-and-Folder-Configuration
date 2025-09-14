@@ -1,54 +1,97 @@
-# Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration
-### Name : AANKARSH
-### Reg.No : 212223233001
+# EX - 03 Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration
+## NAME: AANKARSH J
+## REG NO: 212223233001
 ## AIM:
 To install Autopsy on Kali Linux and analyze disk images, files, and folder configurations for digital forensic purposes.
 
 ## DESIGN STEPS:
-## Step 1:
+### Step 1:
 Install Autopsy using the terminal with the command:
 
-## Step 2:
+### Step 2:
 Launch Autopsy from the terminal or application menu and create a new case.
 
-## Step 3:
+### Step 3:
 Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
 ## PROGRAM:
-Autopsy Web Interface Launch Autopsy:
-You can start Autopsy via terminal, which opens the web interface:
+Autopsy Installation and Analysis Steps
+## INSTALLATION PROCEDURE:
+### Step1:Download Autopsy
+  •	Visit Autopsy Official Website and download the latest version.
+  <br>
+  •	Double-click the downloaded file and follow the on-screen instructions.
+  <br>
+  ![image](https://github.com/user-attachments/assets/a4c1cfe7-97c9-48e6-a615-3c779a035f37)
 
-```
-autopsy
-```
-It will be accessible at http://localhost:9999 by default in your browser.
+### Step2:Installation Process<br>
+  •	Launch Autopsy if it correctly works. 
+  ![image](https://github.com/user-attachments/assets/f0fb93a5-ae0e-4adc-943d-b904cd5a817d)
 
-## OUTPUT:
+    <br>
+  •	Successfully installed & Autopsy Interface<br>
+  ![image](https://github.com/user-attachments/assets/84f04f68-a876-40a1-afee-d64dce4f0e53)
 
+  
+## CREATING A DISK PARTITION:
+### Step1: Open File Manager
+  ●	Right-click This PC → Click Show More Options.<br>
+  ●	Select Manage.<br>
+![image](https://github.com/user-attachments/assets/74032702-8933-4eef-a681-6dac708a2452)
+<br>
+### Step2: Access Disk Management<br>
+  ●	In the new window, select Disk Management.<br>
+  ![image](https://github.com/user-attachments/assets/d0522213-d3fb-4a45-bb79-bb8c4bb4f4c9)
 
-![435601505-80906fca-159a-4d6f-91b1-0879acd73074](https://github.com/user-attachments/assets/bbd36fb6-5478-4636-9d5b-118aadd3c797)
+### Step3: Shrink the C Drive to Allocate Space<br>
+  •	Locate C: drive → Right-click → Select Shrink Volume.<br>
+  •	Enter the amount of memory to allocate for the new disk.<br>
+  •	Click Shrink.<br>
+  ![image](https://github.com/user-attachments/assets/1b92460f-3b9b-4abb-b794-bd48b9f90a9f)
+<br>
+### Step4: Create a New Volume
+  •	Right-click on the newly unallocated space → Select New Simple Volume.<br>
+  ![image](https://github.com/user-attachments/assets/41558cda-0e2b-4fcb-87f8-3cb63162fd24)
+<br>
+  •	Follow the wizard and assign a disk name<br>
+  •	Click Finish to complete the process.<br>
+  •	The new Disk Partition is created<br>
+![image](https://github.com/user-attachments/assets/1cf2a252-b34d-4100-8253-b1736cac479d)
 
+## ADDING FILES:
+### Step1: Copy Files to the Partition:
+  •	Open File Explorer → Navigate to the newly created drive (C: or D:).
 
-![435601593-3187b259-2edf-495b-801c-4f1d9c2659bf](https://github.com/user-attachments/assets/ee424b52-ccd7-4864-97de-b4fb87e54e02)
+  •	Transfer images or files into it.
+  ![image](https://github.com/user-attachments/assets/a0142b7a-366d-47dc-9d34-6290e0bee579)
 
+## OUTPUT:ANALYSING FILES USING AUTOPSY:
 
-![435602368-9cb055ba-5b27-4ad2-a64c-816bbbf828c9](https://github.com/user-attachments/assets/2c5d3151-345f-4a45-b9e3-d9de1561cdf2)
+### Step1: Create a Case
+  •	Enter a case name and select a location to store the case data.
+  
+   ![image](https://github.com/user-attachments/assets/bc808727-106c-4214-8f91-7ae555fb8636)
+  •	Provide a case number and investigator details if required.
 
+### Step2: Add a Data Source
+  •	Click "Add Data Source" and choose the type:
+  •	Select the data source and let Autopsy process it.
+### Step3: File Analysis
+  •	Application
+  
+  ![image](https://github.com/user-attachments/assets/bda92cad-9f47-4a7c-97f6-05910c373fe0)
 
-![435603054-36e75b8a-6253-4a26-b1a0-149e1056092f](https://github.com/user-attachments/assets/a33906f5-8ee7-46cb-9fcb-ba6fda1a5b12)
+  •	File Metadata
+  
+  ![image](https://github.com/user-attachments/assets/0450bf95-28a5-44be-b875-016216e62136)
 
+  •	Click OS Account.
+  
+  ![image](https://github.com/user-attachments/assets/63a21fd6-4ea2-408a-ac70-d6a0274e702b)
 
-![435603488-6da8db99-04b4-4ebc-8fc8-647ec74b77ce](https://github.com/user-attachments/assets/7d0a663c-017b-475d-b8b5-2258a43fffb4)
-
-
-![435603880-5c772a4e-11c7-4ed2-9fd2-49ed86adec46](https://github.com/user-attachments/assets/f56aa277-e210-4d46-9229-768a118247d7)
-
-
-![435603974-ce44d676-88b4-4735-bfdd-11ce92bacf10](https://github.com/user-attachments/assets/6810315b-f277-4a89-a4b4-01efa526eed0)
-
-
-![435604073-1a8d9c96-ed94-4a7b-820c-91fa9388b2fc](https://github.com/user-attachments/assets/2b48b0f0-e9e6-4da0-a884-c9a429634c2e)
-
+  •	Generate Report
+  
+  ![image](https://github.com/user-attachments/assets/5a82b31d-3f4f-49dd-9b23-4872df3ab8a9)
 
 
 ## RESULT:
